@@ -14,4 +14,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-This is to simulate a change made on a robot: robot_speed = 5 # m/s
+This is to simulate a change made on a robot: robot_speed = 3 # m/s
