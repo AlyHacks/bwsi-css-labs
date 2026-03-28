@@ -56,6 +56,10 @@ def main():
 
     # Perform the calculation and display the result
     result = simple_calculator(operation, num1, num2)
+    assert simple_calculator("divide", 8, 4) == 2
+    assert simple_calculator("subtract", 17, -3) == -20
+    assert simple_calculator("add", 0, 9) == 9
+    assert simple_calculator("multiply", -1, 1) == -1
     print(f"The result of {operation}ing {num1} and {num2} is: {result}")
 
 
